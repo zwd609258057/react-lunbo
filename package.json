@@ -1,0 +1,23 @@
+{
+  "name": "react-lunbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "zhangweidong",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
