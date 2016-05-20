@@ -17,6 +17,7 @@ var config = {
 
         loaders: [
             {test: /\.jsx?$/, loader: "babel",query:{presets:["es2015", "react"]}},
+            exclude: /node_modules/,
             {test: /\.css?$/, loader: "style!css" },
             {test: /\.(jpg|png)$/, loader: "url?limit=8192"},
             {test: /\.scss?$/, loader: "style!css!sass"}
