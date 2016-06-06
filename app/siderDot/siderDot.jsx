@@ -20,7 +20,7 @@ export default class SliderDots extends Component {
     for(let i = 0; i < count; i++) {
       dotNodes[i] = (
         <span key={'dot'+i} 
-          className={"siderDot"+ (i === this.props.cur ? "cur": "")} 
+          className={"slider-dot"+ (i === this.props.cur ? "cur": "")} 
           onClick={this.handleDotClick.bind(this,i)}>
         </span>
       )
